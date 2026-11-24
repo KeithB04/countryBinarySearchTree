@@ -55,7 +55,7 @@ data/
 
 | File | Description |
 | --- | --- |
-| `CountryBinarySearchTree.java` | Main application responsible for file loading, user interaction, and menu operations. |
+| `countryBinarySearchTree.java` | Main application responsible for file loading, user interaction, and menu operations. |
 | `BinarySearchTree.java` | Implements the binary search tree, including insertion, deletion, searching, traversal, and happiness rankings. |
 | `Node.java` | Represents an individual tree node containing country data and child references. |
 | `countries.csv` | Sample dataset containing country information. |
@@ -97,13 +97,13 @@ selected countries by their happiness scores.
 Navigate to the project directory and compile the Java files:
 
 ```bash
-javac CountryBinarySearchTree.java BinarySearchTree.java Node.java
+javac countryBinarySearchTree.java BinarySearchTree.java Node.java
 ```
 
 ### Running the Program
 
 ```bash
-java CountryBinarySearchTree
+java countryBinarySearchTree
 ```
 
 When prompted, enter the name of the CSV file:
